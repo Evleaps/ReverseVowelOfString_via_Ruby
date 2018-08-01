@@ -1,11 +1,13 @@
-class ChangeViwel
+class ChangeVowel
 
-  MULTIPLE = 20000
+  MULTIPLE = 25000
 
   public def initialize
     welcome_message
   #  user_string = gets.chomp
+    puts "Test 1/2..."
     replace_1(superStringTest)
+    puts "Test 2/2..."
     replace_2(superStringTest)
   end
 
@@ -54,7 +56,7 @@ Please, enter u line below: \n"
     puts "Finish! Current speed: #{endTime.to_i - startTime.to_i}"
   end
 
-#    very slow alghoritm
+#    very slow alghorithm
 #   //////////////////////////////////////////////////////////////////////////
 #
   private def replace_2(user_string = "qwerty")
@@ -81,7 +83,7 @@ Please, enter u line below: \n"
 #
 end
 
-inst = ChangeViwel.new
+inst = ChangeVowel.new
 
 
 
